@@ -1,0 +1,12 @@
+@import 'colors_and_more';
+
+body{
+  background-color: $red-white;
+  width: 100%;
+}
+
+.main_top{
+  background: url('../images/StartupMock.PNG') no-repeat;
+  width: 1525;
+  height: 885px;
+}
