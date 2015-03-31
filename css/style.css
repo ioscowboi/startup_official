@@ -20,3 +20,23 @@ body{
 .row{
   
 }
+
+.header_logo {
+  width: 6em;
+}
+
+.center_logo {
+  margin: 0 auto;
+}
+
+
+.logo-wrapper {
+    position: relative;
+}
+
+.logo-wrapper .logo {
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
