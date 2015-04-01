@@ -1,11 +1,13 @@
 
 body{
   width: 100%;
+  background: url('../images/StartupMock.PNG') fixed no-repeat;
+  background-size: cover;
 }
 
 .main_top{
-  background: url('../images/StartupMock.PNG') no-repeat;
   margin-top: 80px;
+  max-width: 100%;
 }
 
 .top-bar{
