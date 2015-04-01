@@ -1,0 +1,100 @@
+
+/* Yellow - #ffcc33 */
+/* Blue -#00cccc */
+/* Pink - #cc3366 */
+/* Charcole - #666666 */
+/* White - #FFFFFF */
+body{
+  background: #ECEBFO;
+}
+
+
+/* Titles */
+h2, h3, h4, h5, h6 {
+font-family: 'Oswald', sans-serif;
+color: #00cccc;
+text-transform: uppercase;
+}
+
+.bigfont{
+  font-family: 'Satisfy', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #666666; 
+}
+
+
+/* body*/
+p{ 
+  font-family: 'Noto Serif', serif;
+  color: #666666;
+}
+
+/* TEXT LINKS */
+a:link {
+  font-family: 'Noto Serif', serif;
+  color: #666666; 
+}
+/* visited link */
+a:visited {
+  color: #ffcc33;
+}
+/* mouse over link */
+a:hover {
+    color: #ffcc33;
+}
+
+
+/* MENU LIST */
+.header-nav a{
+  font-family: 'Oswald', sans-serif;
+  color: #666666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/* active link */
+.header-nav a:active{
+    color: #00cccc;
+    text-decoration: underline;
+}
+/* visited link */
+.header-nav a:visited{
+  color: #00cccc;
+}
+/* mouse over link */
+.header-nav a:hover {
+    color: #00cccc;
+}
+
+/* CIRCLE */
+/* To size: The border-radius has to be half the height of the height*/
+.button{
+  font-size: 200px;
+  display:block;
+  width:20em;
+  height:20em;
+  border-radius:10em;
+  font-size:20px;
+  color:#FFFFFF;
+  line-height:100px;
+  text-align:center;
+  background:#00cccc;
+}
+i{
+  font-size: 200px;
+}
+
+.bigger_icon {
+  
+}
+
+.tile {
+  background:url('../images/seamlesspattern.jpg');
+}
+
+.firstrowpic {
+  background:url('../images/Background of office supplies.jpg');
+}
+
+/* MAKE LIST GUIDE */
