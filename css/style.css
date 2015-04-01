@@ -3,6 +3,7 @@ body{
   width: 100%;
   background: url('../images/StartupMock.PNG') fixed no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .main_top{
@@ -51,6 +52,17 @@ body{
 }
 
 
-/*.verde{
+.textured{
+  font-family: 'Noto Serif', serif;
+  background: url('../images/diagonales_decalees.png');
+}
+
+.not_quite_white{
   color: rgba(104, 125, 119, 1);
-}*/
+  background: rgba(236,235,240, 1);
+}
+.green_section{
+  color: rgba(236,235,240, 1);
+  background: rgba(104, 125, 119, 1);
+}
+
