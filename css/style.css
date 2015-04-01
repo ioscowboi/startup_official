@@ -58,11 +58,23 @@ body{
 }
 
 .not_quite_white{
+  color: rgba(236,235,240, 1);
+}
+
+.not_quite_white_section{
   color: rgba(104, 125, 119, 1);
   background: rgba(236,235,240, 1);
 }
+
+.green{
+  color: rgba(104, 125, 119, 1);
+}
+
 .green_section{
   color: rgba(236,235,240, 1);
   background: rgba(104, 125, 119, 1);
 }
 
+.floaty h1{
+  font-size: 100px;
+}
