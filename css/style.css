@@ -1,11 +1,16 @@
 
-
 body{
-  background-color: $red-white;
+  width: 100%;
 }
 
 .main_top{
   background: url('../images/StartupMock.PNG') no-repeat;
+}
+
+.top-bar{
+  height: 80px;
+  width: 100%;
+  padding: 15px;
 }
 
 .main_logo img{
@@ -14,19 +19,21 @@ body{
 }
 
 .the_header{
-  background-color: rgba(236, 235, 240, 1);
+  z-index: 1;
+  margin-left: 0px;
 }
 
 .row{
   
 }
 
-.header_logo {
-  width: 6em;
+.fixed{
+  background-color: rgba(0,0,0, .8);
+  box-shadow: 0px 15px 40px -10px rgba(0, 0, 0, .8);
 }
 
-.center_logo {
-  margin: 0 auto;
+.header_logo {
+  width: 6em;
 }
 
 
@@ -35,8 +42,12 @@ body{
 }
 
 .logo-wrapper .logo {
-
     position: absolute;
     left: 50%;
     right: 50%;
 }
+
+
+/*.verde{
+  color: rgba(104, 125, 119, 1);
+}*/
