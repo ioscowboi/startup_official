@@ -65,7 +65,8 @@ body{
 
 .textured{
   font-family: 'Noto Serif', serif;
-  background: url('../images/diagonales_decalees.png');
+  color: black;
+  background: url('../images/tiny_grid/tiny_grid.png');
 }
 
 .not_quite_white{
