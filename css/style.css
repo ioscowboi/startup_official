@@ -94,7 +94,13 @@ i{
 }
 
 .firstrowpic {
-  background:url('../images/Background of office supplies.jpg');
 }
 
 /* MAKE LIST GUIDE */
+
+/* PARALLAX STYLES */
+#parallax1 {
+  position: fixed;
+  z-index: -30;
+  
+}
