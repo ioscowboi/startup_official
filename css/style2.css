@@ -9,13 +9,6 @@ html, body {
 }
 
 
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
-}
 
 /* REUSABLE CSS */
 .height-100 {
@@ -122,3 +115,4 @@ p.circle-text {
     border-radius: 50%;
     background: #00c4d9;
 }
+
