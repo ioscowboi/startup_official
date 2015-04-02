@@ -180,8 +180,12 @@ i {
   margin-left: 15px;
 }
 
+i:hover {
+  color: #cc3366;
+}
+
 i.grey-icon {
-  color: #666666;
+  color: #cc3366;
 }
 
 .grey-tile {
