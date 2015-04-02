@@ -148,7 +148,7 @@ li a:hover {
 /*NAV FOOTER STYLES*/
 
 footer {
-  padding: 40px 0 40px 0;
+  padding: 4% 0 4% 0;
 }
 
 nav.footer-nav {
@@ -169,7 +169,7 @@ nav.footer-nav a:hover {
 
 footer p {
   color: #00cccc;
-  font-size: 10px;
+  font-size: 80%;
   padding: 0;
   line-height: 5px;
 }
@@ -177,4 +177,8 @@ footer p {
 i {
   color: #ffffff;
   margin-left: 15px;
+}
+
+.grey-tile {
+  background: url("../images/seamlesspatterngrey.jpg");
 }
