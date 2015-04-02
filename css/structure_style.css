@@ -1,0 +1,143 @@
+/* PAGE RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+/* REUSABLE CSS */
+.height-100 {
+  height: 100%;
+  min-height: 600px;
+}
+
+.height-50 {
+  height: 50%;
+}
+
+.height-35 {
+  height: 35%;
+}
+
+.height-65 {
+  height: 65%;
+}
+
+.width-40 {
+  width: 40%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top-margin-push {
+  margin-top: 5%;
+}
+
+.gray {
+  background: #aeaeae;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  clear: both;
+}
+
+/* OTHER */
+
+
+/* STICKY TOP NAV */
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+
+
+/* NAV */
+
+nav.header-nav a {
+  text-decoration: none;
+}
+
+nav.header-nav li {
+  padding: 3% 1.5%;
+}
+
+nav.top-nav {
+  height: 20%;
+  width: 100%;
+}
+
+nav.top-nav ul{
+  text-align: center;
+/*  display: none;*/
+}
+
+nav.top-nav ul li {
+  display: inline-block;
+  padding: 30px;
+  background: rgba(255,255,255, .98);
+}
+
+.triangle {
+  width: 100%;
+  height: 35%;
+}
+
+p.circle-text {
+  line-height: 200px;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: url('../images/seamlesspattern.jpg') ;
+    box-shadow: 10px 3px 5px rgba(0,0,0, .2), -10px -3px 5px rgba(0,0,0, .2), -5px 6px 5px rgba(0,0,0, .2), 5px 6px 5px rgba(0,0,0, .2), 8px -3px 7px rgba(0,0,0, .2);
+
+    
+}
+
+/* MAP */
+
+.map-container {
+  padding: 25px 0;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 560px;
+}
+
+
+
+
