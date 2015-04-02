@@ -81,6 +81,7 @@ a:hover {
   text-align:center;
   background:#00cccc;
 }
+
 i{
   font-size: 200px;
 }
@@ -100,13 +101,22 @@ i{
 /* PARALLAX STYLES */
 #parallax1 {
   position: fixed;
-  z-index: -30;
+  z-index: -1;
 }
 
 #parallax2 {
+  margin-top: 120px;
   position: absolute;
-  z-index: 0;
+  z-index: -3;
   
+}
+
+#parallax-transparent{
+  background: rgba(0,204,204, .25);
+  position: fixed;
+  width: 4000px;
+  height: 6000px;
+  z-index: -2;
 }
 /* Lists */
 
@@ -188,6 +198,10 @@ i:hover {
 
 i.grey-icon {
   color: #cc3366;
+}
+
+i.grey-icon:hover {
+  color: #00cccc;
 }
 
 .grey-tile {
