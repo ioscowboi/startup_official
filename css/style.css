@@ -190,6 +190,10 @@ i.grey-icon {
   color: #cc3366;
 }
 
+i.grey-icon:hover {
+  color: #00cccc;
+}
+
 .grey-tile {
   background: url("../images/seamlesspatterngrey.jpg");
 }
