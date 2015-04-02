@@ -58,18 +58,16 @@ li {
   background: #aeaeae;
 }
 
-
-/* Colours */
-.red {
-  background: red;
+.float-left {
+  float: left;
 }
 
-.blue {
-  background: #00c4d9;
+.float-right {
+  float: right;
 }
 
-.white {
-  background: #ffffff;
+.clear-float {
+  clear: both;
 }
 
 /* OTHER */

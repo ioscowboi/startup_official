@@ -123,3 +123,50 @@ li a:hover {
 }
 /* Glyphs */
 
+/* COLOURS */
+
+.yellow {
+  background: #ffcc33;
+}
+
+.blue {
+  background: #00cccc;
+}
+
+.pink {
+  background: #cc3366;
+}
+
+.charcole {
+  background: #444444;
+}
+
+.white {
+  background: #ffffff;
+}
+
+/*NAV FOOTER STYLES*/
+
+footer {
+  padding: 20px 0;
+}
+
+nav.footer-nav {
+  padding: 50px 0 0 0;
+}
+
+nav.footer-nav li {
+  padding: 0 10px;
+}
+
+nav.footer-nav a {
+  color: #00cccc;
+}
+
+nav.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #00cccc;
+}
