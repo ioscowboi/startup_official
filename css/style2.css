@@ -126,3 +126,13 @@ p.circle-text {
     
 }
 
+
+.map-container {
+  padding: 25px 0;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 560px;
+}
+
