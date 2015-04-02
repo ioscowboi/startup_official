@@ -112,16 +112,16 @@ p.circle-text {
     -webkit-border-radius: 50%; 
     border-radius: 50%;
     background: url('../images/seamlesspattern.jpg') ;
-    box-shadow: 10px 3px 5px rgba(0,0,0, .2), -10px -3px 5px rgba(0,0,0, .2), -5px 6px 5px rgba(0,0,0, .2), 5px 6px 5px rgba(0,0,0, .2), 8px -3px 7px rgba(0,0,0, .2);
-
-    
+    box-shadow: 5px 5px 10px #006666;  
 }
 
+.text-shadow {
+  text-shadow: 2px 2px rgba(255, 255, 255, .5);
+}
 
 .map-container {
   padding: 25px 0;
 }
-
 
 /* BORDER */
 .map-iframe {
