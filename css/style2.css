@@ -118,8 +118,20 @@ p.circle-text {
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
     border-radius: 50%;
-    background: #00c4d9;
+    background: url('../images/seamlesspattern.jpg') ;
+    box-shadow: 10px 3px 5px rgba(0,0,0, .2), -10px -3px 5px rgba(0,0,0, .2), -5px 6px 5px rgba(0,0,0, .2), 5px 6px 5px rgba(0,0,0, .2), 8px -3px 7px rgba(0,0,0, .2);
+
+    
+}
+
+
+.map-container {
+  padding: 25px 0;
 }
 
 
 /* BORDER */
+.map-iframe {
+  width: 100%;
+  height: 560px;
+}

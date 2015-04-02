@@ -105,6 +105,11 @@ i{
   
 }
 
+#parallax2 {
+  position: absolute;
+  z-index: 0;
+  
+}
 /* Lists */
 li {
   list-style-type: none;
@@ -179,6 +184,29 @@ i {
   margin-left: 15px;
 }
 
+i.grey-icon {
+  color: #666666;
+}
+
 .grey-tile {
   background: url("../images/seamlesspatterngrey.jpg");
+}
+
+/*shapes*/
+  
+.chevron {
+		background-attachment: scroll,							scroll,				fixed;
+    background-image: url("../images/top-3200.svg");
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,						repeat,					no-repeat;
+		background-size: 3200px 460px,					auto,					cover;
+		color: rgba(255, 25, 25, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+
+}
+
+.chevron-section{
+  background: #00cccc;
 }
