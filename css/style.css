@@ -20,7 +20,9 @@ text-transform: uppercase;
   font-family: 'Satisfy', cursive;
   font-size: 100px;
   text-align: center;
-  color: #666666; 
+  color: #666666;
+  line-height: 100px;
+  transform: rotate(-15deg);   
 }
 
 
