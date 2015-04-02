@@ -101,6 +101,11 @@ i{
   z-index: -30;
 }
 
+#parallax2 {
+  position: absolute;
+  z-index: 0;
+  
+}
 /* Lists */
 
 
@@ -119,3 +124,85 @@ i{
   color: #cc3366;
 }
 
+/* COLOURS */
+
+.yellow {
+  background: #ffcc33;
+}
+
+.blue {
+  background: #00cccc;
+}
+
+.pink {
+  background: #cc3366;
+}
+
+.charcole {
+  background: #666666;
+}
+
+.white {
+  background: #ffffff;
+}
+
+/*NAV FOOTER STYLES*/
+
+footer {
+  padding: 4% 0 4% 0;
+}
+
+nav.footer-nav {
+  padding: 50px 0 0 0;
+}
+
+nav.footer-nav li {
+  padding: 0 10px;
+}
+
+nav.footer-nav a {
+  color: #00cccc;
+}
+
+nav.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #00cccc;
+  font-size: 80%;
+  padding: 0;
+  line-height: 5px;
+}
+
+i {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+i.grey-icon {
+  color: #666666;
+}
+
+.grey-tile {
+  background: url("../images/seamlesspatterngrey.jpg");
+}
+
+/*shapes*/
+  
+.chevron {
+		background-attachment: scroll,							scroll,				fixed;
+    background-image: url("../images/top-3200.svg");
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,						repeat,					no-repeat;
+		background-size: 3200px 460px,					auto,					cover;
+		color: rgba(255, 25, 25, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+
+}
+
+.chevron-section{
+  background: #00cccc;
+}
