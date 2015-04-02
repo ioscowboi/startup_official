@@ -35,17 +35,18 @@ a:link {
   font-family: 'Noto Serif', serif;
   color: #666666; 
 }
-/* visited link */
-a:visited {
-  color: #ffcc33;
-}
+
 /* mouse over link */
 a:hover {
-    color: #ffcc33;
+    color: #00cccc;
 }
 
 
 /* MENU LIST */
+.header-nav li {
+  display: inline-block;
+  list-style: none;
+}
 .header-nav a{
   font-family: 'Oswald', sans-serif;
   color: #666666;
@@ -58,10 +59,7 @@ a:hover {
     color: #00cccc;
     text-decoration: underline;
 }
-/* visited link */
-.header-nav a:visited{
-  color: #00cccc;
-}
+
 /* mouse over link */
 .header-nav a:hover {
     color: #00cccc;
@@ -96,13 +94,11 @@ i{
 .firstrowpic {
 }
 
-/* MAKE LIST GUIDE */
 
 /* PARALLAX STYLES */
 #parallax1 {
   position: fixed;
   z-index: -30;
-  
 }
 
 #parallax2 {
@@ -111,26 +107,90 @@ i{
   
 }
 /* Lists */
-li {
-  list-style-type: none;
+
+
+.linklists li {
   font-family: 'Noto Serif', serif;
   color: #666666;
 }
 
-li a {
+.linklists li a {
   text-decoration: none;
-  color: #00c4d9;
+  color: #666666;
   line-height: 1.5em;
 }
 
-li a:hover {
-  color: #e34761;
+.linklists li a:hover {
+  color: #cc3366;
 }
-/* Glyphs */
 
+/* COLOURS */
+
+.yellow {
+  background: #ffcc33;
+}
+
+.blue {
+  background: #00cccc;
+}
+
+.pink {
+  background: #cc3366;
+}
+
+.charcole {
+  background: #666666;
+}
+
+.white {
+  background: #ffffff;
+}
+
+/*NAV FOOTER STYLES*/
+
+footer {
+  padding: 4% 0 4% 0;
+}
+
+nav.footer-nav {
+  padding: 50px 0 0 0;
+}
+
+nav.footer-nav li {
+  padding: 0 10px;
+}
+
+nav.footer-nav a {
+  color: #00cccc;
+}
+
+nav.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #00cccc;
+  font-size: 80%;
+  padding: 0;
+  line-height: 5px;
+}
+
+i {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+i.grey-icon {
+  color: #666666;
+}
+
+.grey-tile {
+  background: url("../images/seamlesspatterngrey.jpg");
+}
 
 /*shapes*/
-.chevron{
+  
+.chevron {
 		background-attachment: scroll,							scroll,				fixed;
     background-image: url("../images/top-3200.svg");
 		background-position: bottom center,					top left,				center center;
