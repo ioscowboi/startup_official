@@ -138,7 +138,7 @@ li a:hover {
 }
 
 .charcole {
-  background: #444444;
+  background: #666666;
 }
 
 .white {
@@ -148,7 +148,7 @@ li a:hover {
 /*NAV FOOTER STYLES*/
 
 footer {
-  padding: 20px 0;
+  padding: 40px 0 40px 0;
 }
 
 nav.footer-nav {
@@ -169,4 +169,12 @@ nav.footer-nav a:hover {
 
 footer p {
   color: #00cccc;
+  font-size: 10px;
+  padding: 0;
+  line-height: 5px;
+}
+
+i {
+  color: #ffffff;
+  margin-left: 15px;
 }
