@@ -104,3 +104,22 @@ i{
   z-index: -30;
   
 }
+
+/* Lists */
+li {
+  list-style-type: none;
+  font-family: 'Noto Serif', serif;
+  color: #666666;
+}
+
+li a {
+  text-decoration: none;
+  color: #00c4d9;
+  line-height: 1.5em;
+}
+
+li a:hover {
+  color: #e34761;
+}
+/* Glyphs */
+
