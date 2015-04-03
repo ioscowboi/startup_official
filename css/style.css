@@ -101,7 +101,7 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
-  
+  background: url('images/Optimized-DSC_0022.JPG');
 }
 
 #parallax1 img{
@@ -220,4 +220,12 @@ i.grey-icon:hover {
 
 .chevron-section{
   background: #00cccc;
+}
+
+/*maedi queries*/
+
+@media (max-width: 1000px){
+  #parallax1{
+    background: url("../images/mobile_background.png");
+  }
 }
