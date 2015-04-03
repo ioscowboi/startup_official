@@ -101,7 +101,9 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
-  background: url('images/Optimized-DSC_0022.JPG');
+  background: url('../images/Optimized-DSC_0022.JPG');
+  height: 100%;
+  width: 100%;
 }
 
 #parallax1 img{
@@ -225,7 +227,12 @@ i.grey-icon:hover {
 /*maedi queries*/
 
 @media (max-width: 1000px){
-  #parallax1{
-    background: url("../images/mobile_background.png");
+  #parallax1 {
+    position: fixed;
+    z-index: -30;
+    background: url('../images/mobile_background.png');
+    height: 100%;
+    max-width: 100%;
   }
+
 }
