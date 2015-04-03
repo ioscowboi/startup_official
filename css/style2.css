@@ -147,6 +147,15 @@ i.go_up{
   border-radius: 20px;
   color: rgba(0,0,0, .3);
 }
+
+#little-nav{
+  margin: 0px -10px -20px 14px;
+  color: rgba(0,0,0, .3);
+}
+
+#little-nav:hover{
+  color: rgba(255, 100, 100, 1);
+}
 /* BORDER */
 .map-iframe {
   width: 100%;
