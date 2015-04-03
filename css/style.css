@@ -116,10 +116,18 @@ i{
 }
 /* Lists */
 
+.linklists ul{
+  list-style-type: none;
+  margin-left: 0rem;
+}
 
 .linklists li {
   font-family: 'Noto Serif', serif;
   color: #666666;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 0.25em;
+  margin-bottom: 0.5em;
+  list-style-type: none;  
 }
 
 .linklists li a {
@@ -131,6 +139,7 @@ i{
 .linklists li a:hover {
   color: #cc3366;
 }
+
 
 /* COLOURS */
 
