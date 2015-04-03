@@ -156,6 +156,10 @@ i.go_up{
 #little-nav:hover{
   color: rgba(255, 100, 100, 1);
 }
+
+.padding-auto{
+  padding: 10% 0% 10% 0%;
+}
 /* BORDER */
 .map-iframe {
   width: 100%;

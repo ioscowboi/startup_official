@@ -1,9 +1,8 @@
 
 
-
 $(document).ready(function(){
 
-    // hide #back-top first
+    // hide #go-top first
     $(".go-top").hide();
  
     // fade in #back-top
@@ -28,7 +27,9 @@ $(document).ready(function(){
     $('a').click(function(){
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top
+
         }, 800);
+
         return false;
     });
 
