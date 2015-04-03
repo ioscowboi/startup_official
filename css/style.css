@@ -101,7 +101,9 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
-  
+  background: url('../images/Optimized-DSC_0022.JPG');
+  height: 100%;
+  width: 100%;
 }
 
 #parallax1 img{
@@ -203,6 +205,9 @@ i.grey-icon:hover {
   background: url("../images/seamlesspatterngrey.jpg");
 }
 
+.bottom-shadow{
+  box-shadow: -1px 8px 60px rgba(40, 40, 40, .9);
+}
 /*shapes*/
   
 .chevron {
@@ -220,4 +225,17 @@ i.grey-icon:hover {
 
 .chevron-section{
   background: #00cccc;
+}
+
+/*maedi queries*/
+
+@media (max-width: 1000px){
+  #parallax1 {
+    position: fixed;
+    z-index: -30;
+    background: url('../images/mobile_background.png');
+    height: 100%;
+    max-width: 100%;
+  }
+
 }
