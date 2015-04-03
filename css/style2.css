@@ -119,6 +119,9 @@ p.circle-text {
   box-shadow: none;
 }
 
+.circle a:hover i.grey-icon{
+  color: #00cccc;
+}
 .text-shadow {
   text-shadow: 2px 2px rgba(255, 255, 255, .5);
 }
@@ -127,6 +130,17 @@ p.circle-text {
   padding: 25px 0;
 }
 
+.go-top{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5%;
+  background: url('');
+  z-index: 5;
+}
+
+i.go_up{
+  background: rgba(0, 204, 204, 204, 1);
+}
 /* BORDER */
 .map-iframe {
   width: 100%;
