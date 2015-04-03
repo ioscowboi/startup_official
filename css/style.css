@@ -205,6 +205,9 @@ i.grey-icon:hover {
   background: url("../images/seamlesspatterngrey.jpg");
 }
 
+.bottom-shadow{
+  box-shadow: -1px 8px 60px rgba(255,255,255, .45);
+}
 /*shapes*/
   
 .chevron {
