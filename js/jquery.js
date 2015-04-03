@@ -27,13 +27,7 @@ $(document).ready(function(){
     $('a').click(function(){
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top
-<<<<<<< HEAD
-
-        }, 800);
-
-=======
         }, 900);
->>>>>>> ux-dale-3
         return false;
     });
 
