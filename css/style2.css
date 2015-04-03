@@ -133,7 +133,8 @@ p.circle-text {
 .go-top{
   position: fixed;
   bottom: 0;
-  margin-bottom: 5%;
+  right: 0;
+  margin: 0% 5% 5% 0%;
   background: url('');
   z-index: 5;
 }
