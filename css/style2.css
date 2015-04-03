@@ -140,13 +140,12 @@ p.circle-text {
 
 
 .go-top i{
-  color: rgba(255,255,255, 1);
-  background: rgba(0, 204,204, .3);
   border-radius: 10px;
 }
 
 i.go_up{
   border-radius: 20px;
+  color: rgba(0,0,0, .3);
 }
 /* BORDER */
 .map-iframe {
