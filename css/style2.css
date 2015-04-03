@@ -134,13 +134,19 @@ p.circle-text {
   position: fixed;
   bottom: 0;
   right: 0;
-  margin: 0% 5% 5% 0%;
-  background: url('');
+  padding: 0% 5% 5% 0%;
   z-index: 5;
 }
 
+
+.go-top i{
+  color: rgba(255,255,255, 1);
+  background: rgba(0, 204,204, .3);
+  border-radius: 10px;
+}
+
 i.go_up{
-  background: rgba(0, 204, 204, 204, 1);
+  border-radius: 20px;
 }
 /* BORDER */
 .map-iframe {

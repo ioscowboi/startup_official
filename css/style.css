@@ -101,8 +101,12 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
+  
 }
 
+#parallax1 img{
+  width: 100%;
+}
 #parallax2 {
   position: absolute;
   z-index: 0;
