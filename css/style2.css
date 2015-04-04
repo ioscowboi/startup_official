@@ -8,7 +8,16 @@ html, body {
   height: 100%;
 }
 
+body{
+  background: url('../images/402logogrey.png');
+  background-size: 40px;
+  background-repeat: repeat;
+}
 
+.description-banner{
+  font-family: 'Oswald', sans-serif;
+  font-size: 500%;
+}
 
 /* REUSABLE CSS */
 .height-100 {

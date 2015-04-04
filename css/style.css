@@ -246,5 +246,9 @@ i.grey-icon:hover {
     height: 100%;
     max-width: 100%;
   }
+  
+  body{
+    width: 100%;
+  }
 
 }
