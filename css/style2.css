@@ -94,6 +94,7 @@ body{
 
 /* OTHER */
 
+
 .header-nav a {
   text-decoration: none;
 }
@@ -107,7 +108,8 @@ body{
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 4;
+  z-index: 2;
+  display: none;
   background: rgba(255,255,255, .9);
 }
 
@@ -192,4 +194,5 @@ i.go_up{
   width: 100%;
   height: 560px;
 }
+
 
