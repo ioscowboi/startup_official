@@ -17,7 +17,7 @@ body{
 
 .description-banner{
   font-family: 'Oswald', sans-serif;
-  font-size: 500%;
+  font-size: 300%;
 }
 
 /* REUSABLE CSS */
@@ -25,6 +25,15 @@ body{
   height: 100%;
   min-height: 600px;
 }
+
+.height-75 {
+  height: 75%;
+}
+
+.height-65 {
+  height: 65%;
+}
+
 
 .height-50 {
   height: 50%;
@@ -34,13 +43,19 @@ body{
   height: 35%;
 }
 
-.height-65 {
-  height: 65%;
+.height-25 {
+  height: 25%;
 }
 
 .width-40 {
   width: 40%;
   min-width: 300px;
+  margin: 0 auto;
+}
+
+.width-30 {
+  width: 30%;
+  min-width: 250px;
   margin: 0 auto;
 }
 
@@ -56,6 +71,11 @@ body{
 .top-margin-push {
   margin-top: 5%;
 }
+
+.top-margin-push-smaller {
+  margin-top: 3%;
+}
+
 
 .gray {
   background: #aeaeae;
