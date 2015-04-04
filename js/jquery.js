@@ -30,5 +30,12 @@ $(document).ready(function(){
         }, 900);
         return false;
     });
+    
+    $('#jsNav').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'div') ).offset().top
+        }, 1200);
+        return false;
+    });
 
 });

@@ -74,34 +74,32 @@ body{
 
 /* OTHER */
 
-nav.header-nav a {
+.header-nav a {
   text-decoration: none;
 }
 
-nav.header-nav li {
+.header-nav li {
   padding: 3% 1.5%;
 }
 
-nav.fixed {
-  height: 20%;
+.fixed_nav {
+  height: 10%;
   width: 100%;
-}
-
-nav.fixed ul{
-  text-align: center;
-  display: none;
-}
-
-nav.fixed ul li {
-  display: inline-block;
-  padding: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 4;
   background: rgba(255,255,255, .9);
 }
 
-.fixed{
-  position: fixed;
-  top: 0;
+.fixed_nav ul{
+  text-align: center;
 }
+
+.fixed_nav ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
 
 .triangle {
   width: 100%;
