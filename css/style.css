@@ -253,3 +253,14 @@ i.grey-icon:hover {
   }
 
 }
+
+@media (min-width: 1000px){
+  .description-banner{
+    font-size: 5em;
+  }
+  
+  .width-30{
+    width: 50%;
+  }
+
+}
